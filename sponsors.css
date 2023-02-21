@@ -1,0 +1,226 @@
+body { 
+    background-color: #040127;
+    min-height: 1000px;}
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+    }
+    .floating { 
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+   
+  @keyframes floating {
+      0% { transform: translate(0,  0px); }
+      50%  { transform: translate(0, 15px); }
+      100%   { transform: translate(0, -0px); }   
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  li {
+    float: left;
+    border-radius: 25px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    opacity: 0.5;
+  }
+  
+  
+      .grad{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        z-index: 1;
+        height: 20%;
+        border: 5px solid #ffffff00;
+    }
+    
+    
+  body {
+    
+    -webkit-transform: perspective(400px);
+    -webkit-transform-style: preserve-3d;
+  }
+  
+  
+  .card1 {
+    text-align:center;
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    height: 350px;
+    margin-top: -50%;
+    margin-bottom: 10px;
+    background: #040127;
+    transition:.6s;
+    
+    border-radius: 25px;
+    box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+  }
+  
+  .card1 img{
+    
+    width:200px;
+    height:120px;
+  }
+  h3{
+    font-size:25px;
+    font-family: 'Abel', sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(255,255,255);
+    
+  }
+  p{
+    color:rgb(255, 255, 255);
+    font-family: 'Abel', sans-serif;
+  }
+  
+  
+  
+  .card2 {
+    text-align:center;
+    position: absolute;
+    left: 550px;
+    width: 250px;
+    height: 350px;
+    margin-top: -50%;
+    margin-bottom: 10px;
+    background: #040127;
+    animation: animate 1s linear infinite;
+    transition:.6s;
+    border-radius: 25px;
+    
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card2 img{
+   
+    width:180px;
+    height:150px;
+  }
+  .card3 {
+    text-align:center;
+    position: absolute;
+    left: 1000px;
+    width: 250px;
+    height: 350px;
+    margin-top: -50%;
+    margin-bottom: 10px;
+    background: #040127;
+    transition:.6s;
+    border-radius: 25px;
+   
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card3 img{
+    
+    width:200px;
+    height:120px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    margin-top: 55%; 
+  }
+  .footer h2{
+    font-size:18px;
+    font-family: 'Exo', sans-serif;
+    
+  }
+  
+  h1 {
+    font-size: 3.5vw;
+    position: relative;
+    width: max-content; 
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  h1:before, h1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+  }
+  
+  h1::before {
+    background: #040127;
+    animation: write 2s steps(15) 0.5s forwards; /* Number of steps */
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1::after {
+    opacity: 1;
+    width: 0.15em; 
+    background: rgb(255, 255, 255);
+    animation: write 2s steps(15) 0.5s forwards, blink 0.75s steps(2) infinite;
+    text-align: center;
+  }
+  
+  @keyframes write {
+    to {
+      left: 100%;
+    }
+    
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    } 
+    49.9% {
+       opacity: 0;
+    }
+    50% {
+       opacity: 1;
+    }
+    100% {
+       opacity: 1;
+    }
+  }
+  
+ 
+  
+  
+  
+  
+  
+  

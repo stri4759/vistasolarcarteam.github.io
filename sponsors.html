@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+<title>Vista Del Lago Solar Car Challenge</title>
+<link rel="stylesheet" href="sponsors.css">
+
+<head>
+	<ul>
+		<li><a style="margin-left: 2%;" href="OURTEAM.html">About</a></li>
+		<li><a href="home.html">Home</a></li>
+		<li><img style=" margin-left: 50%; width: 20%; height: auto;"  src="logog.png" alt="Eiffel Tower"> </li>
+		
+	</ul>
+
+	<h1 style=" margin-top: 50%; margin-left: 30%; margin-right: auto; margin-top: 2%; font-family: 'Exo 2', sans-serif; font-size: 100px; color: white;">Vista Eagles</h1>
+    <h1 style=" margin-top: 55%; margin-left: 43%; margin-right: auto; margin-top: 2%; font-family: 'Exo 2', sans-serif; font-size: 50px; color: white;">Why Us?</h1>
+
+</head>
+
+<body>
+	<div class="container">
+		<img src="pexels-gradienta-6985047.jpeg" alt="Snow" style="margin-top: 10%; height:50%; width:100%;">
+        <h2 style="color:white;"> Why Us?</h2>
+		<a href="OURTEAM.html">
+			<button class="block">  
+		<div style="margin-left: 5%;" class="card1">
+			<img style=" margin-top: 13%; width: 58%; height:auto;" src="location.png" alt="">
+			<h3 >Where</h3>
+			<p style="padding: 6%;">We are based in Folsom California near the heart of silicon valley. We represent Vista Del Lago High School in our endevors. </p>
+		  </div> 
+</button> </a>
+
+		  <div style="margin-left: 4%;" class="card2">
+			<img style=" margin-top: 13%; width: 58%; height:auto;" src="megaphone.png" alt="Eiffel Tower">
+			<h3 style="font-size: 20px;"><div class="col-sm">
+                <p id='0102' class="fs-2 text-light">+</p>
+                
+          </div></h3>
+			<p style="padding: 3%;">We've effect almost 4000+ people.</p>
+		  </div>
+		  
+		  <div style="margin-left: 2.2%;" class="card3">
+			<img style=" margin-top: 13%; width: 58%; height:auto;" src="handshake.png" alt="">
+			<h3>$500</h3>
+			<p style="padding: 3%;"> Raised through sponsors and fundraising.</p>
+		  </div>
+
+<h1 style="margin-top: 5%;"> Our Sponsors</h1>
+
+
+
+
+          
+             <style>
+               
+                p{
+                text-align: center;
+                }
+             </style>
+          <body onload="load()">
+                <p>
+                <div class="d-flex justify-content-center fs-1 fw-bold ">Welcome To Tutorials Point</div>
+                <div class="d-flex justify-content-center fs-1 fw-bold "style="color: #016064;">Animation Counter</div>
+                </p>
+                <p>
+                <div class="container">
+                  
+             </p>
+             <script>
+                function animate(obj, initVal, lastVal, duration) {
+                   let startTime = null;
+          
+                //get the current timestamp and assign it to the currentTime variable
+                let currentTime = Date.now();
+          
+                //pass the current timestamp to the step function
+                const step = (currentTime ) => {
+          
+                //if the start time is null, assign the current time to startTime
+                if (!startTime) {
+                   startTime = currentTime ;
+                }
+          
+                //calculate the value to be used in calculating the number to be displayed
+                const progress = Math.min((currentTime - startTime)/ duration, 1);
+          
+                //calculate what to be displayed using the value gotten above
+                obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
+          
+                //checking to make sure the counter does not exceed the last value (lastVal)
+                if (progress < 1) {
+                   window.requestAnimationFrame(step);
+                } else {
+                      window.cancelAnimationFrame(window.requestAnimationFrame(step));
+                   }
+                };
+                //start animating
+                   window.requestAnimationFrame(step);
+                }
+                let text1 = document.getElementById('0101');
+                let text2 = document.getElementById('0102');
+                let text3 = document.getElementById('0103');
+                const load = () => {
+                   animate(text1, 0, 500, 7000);
+                   animate(text2, 3000, 4000, 7000);
+                   animate(text3, 100, 25, 7000);
+                }
+             </script>
+          </body>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+		
+	</div>
+    <h1> </h1>
+	<div class="footer">
+		<h2 style="color: black;">Contact Us</h2>
+		<h2 style="color: black;">Vista Del Lago High School</h2>
+		<p style="color: black;">Adress: 1970 Broadstone Pkwy, Folsom, CA 95630</p>
+		<a><p style="color: black;">Email: vistasolarcar@gmail.com</p></a>
+		<p style="position: absolute; right:0%; bottom:0%; color: black;"> Designed By: Sahil Trivedi<p>
+	  </div>
+    
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

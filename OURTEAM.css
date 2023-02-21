@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    background-color: #040127;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .card {
+    width: 300px;
+    background: linear-gradient(135deg, #10045b 0%, #d503d9 100%);
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px #00000070;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 5rem auto;
+    margin-top: 50%;
+    transition: transform 0.3s;
+    
+    
+  }
+  
+  .card:hover {
+    transform: translateY(-0.5rem) scale(1.03);
+  }
+  
+  .top-section {
+    position: relative;
+  }
+  
+  .name {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1;
+    opacity: 0.8;
+  }
+  
+  .name span {
+    background: #333;
+    padding: 0 5px;
+  }
+  
+  .name span:last-of-type {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .info-section {
+    padding: 0 40px 40px;
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  h2 {
+    padding: 1rem 0 1rem;
+  }
+  h1{
+    color: white;
+  }
+  
+  h2:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 40px;
+    background: #fff;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .social a {
+    font-size: 20px;
+    color: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
+    transition: all 0.4s;
+  }
+  
+  .social a:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  li {
+    float: left;
+    border-radius: 25px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    opacity: 0.5;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  } 
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+  h1 {
+    font-size: 3.5vw;
+    position: relative;
+    width: max-content; 
+    font-weight: normal;
+  }
+  
+  h1:before, h1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  h1::before {
+    background: #040127;
+    animation: write 2s steps(15) 0.5s forwards; /* Number of steps */
+    width: 100%;
+  }
+  
+  h1::after {
+    opacity: 1;
+    width: 0.15em; 
+    background: rgb(255, 255, 255);
+    animation: write 2s steps(15) 0.5s forwards, blink 0.75s steps(2) infinite;
+  }
+  
+  @keyframes write {
+    to {
+      left: 100%;
+    }
+    
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    } 
+    49.9% {
+       opacity: 0;
+    }
+    50% {
+       opacity: 1;
+    }
+    100% {
+       opacity: 1;
+    }
+  }
+  
+ 

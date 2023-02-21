@@ -1,4 +1,5 @@
-body {background-color: #040127;
+body { 
+  background-color: #040127;
   min-height: 1000px;}
 .center {
     display: block;
@@ -23,37 +24,34 @@ body {background-color: #040127;
 }
 
 ul {
-    border-radius: 25px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  font-family: 'Abel', sans-serif;
+}
 
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    border-radius: 25px;
-    display: block;
-    color: rgb(4, 1, 39);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  li a:hover {
-    border-radius: 25px;
-    opacity: 0.5;
-    background-color:#221e53
-    
-  }
+li {
+  float: left;
+  border-radius: 25px;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-family: 'Abel', sans-serif;
+}
+
+li a:hover {
+  background-color: #111;
+  opacity: 0.5;
+}
 
 
     .grad{
@@ -71,7 +69,6 @@ body {
   
   -webkit-transform: perspective(400px);
   -webkit-transform-style: preserve-3d;
-  
 }
 
 
@@ -156,7 +153,7 @@ p{
   bottom: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
 }
 .footer h2{
@@ -164,3 +161,9 @@ p{
   font-family: 'Exo', sans-serif;
   
 }
+
+
+
+
+
+
