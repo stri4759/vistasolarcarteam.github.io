@@ -28,11 +28,11 @@
   
   .card {
     width: 300px;
-    background: linear-gradient(135deg, #10045b 0%, #d503d9 100%);
+    background: #1c1b40;
     overflow: hidden;
     font-family: sans-serif;
     box-shadow: 0 0 20px #00000070;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     margin: 5rem auto;
     margin-top: 50%;
@@ -56,11 +56,11 @@
     font-size: 40px;
     color: #fff;
     line-height: 1;
-    opacity: 0.8;
+   
   }
   
   .name span {
-    background: #333;
+    
     padding: 0 5px;
   }
   
@@ -100,19 +100,19 @@
   
   .social {
     display:flex;
-    background-color:aliceblue;
+    
     justify-content: space-evenly;
   }
   
   .social a {
-    font-size: 20px;
-    color: linear-gradient(135deg, #57ffff 0%, #048dfd 100%);
+    font-size: 25px;
+    color: gray;
     transition: all 0.4s;
   }
 
   .social a:visited{
-    font-size: 20px;
-    color: linear-gradient(135deg, #57ffff 0%, #048dfd 100%);
+    font-size: 25px;
+    color: gray;
     transition: all 0.4s;
   }
   
@@ -214,4 +214,17 @@
     }
   }
   
- 
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+  }
+  .footer h2{
+    font-size:18px;
+    font-family: 'Exo', sans-serif;
+    
+  }
