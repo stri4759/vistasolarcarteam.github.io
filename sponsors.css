@@ -75,11 +75,11 @@ body {
   .card1 {
     text-align:center;
     position: absolute;
-    left: 100px;
-    width: 250px;
-    height: 350px;
-    margin-top: -50%;
-    margin-bottom: 10px;
+    left: 50%;
+    width: max-content;
+    height: max-content;
+    margin-top: max-content;
+    margin-bottom: max-content;
     background: #040127;
     transition:.6s;
     
@@ -94,9 +94,13 @@ body {
   }
   h3{
     font-size:25px;
-    font-family: 'Abel', sans-serif;
+    
     color:rgb(255, 255, 255);
     text-shadow: 0 0 2px rgb(255,255,255);
+    text-align: center;
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 50px; 
+    color: white;
     
   }
   p{
@@ -164,15 +168,16 @@ body {
   }
   
   h1 {
-    font-size: 3.5vw;
-    position: relative;
-    width: max-content; 
+    font-size: 3.5vw; 
     font-weight: normal;
     text-align: center;
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 50px; 
+    color: white;
   }
   
   h1:before, h1:after {
-    content: "";
+    
     position: absolute;
     top: 0;
     left: 0;
