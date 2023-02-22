@@ -79,6 +79,10 @@
     padding: 1rem 0 1rem;
   }
   h1{
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 2%; 
+    font-family: 'Exo 2', sans-serif;
     color: white;
   }
   
@@ -95,13 +99,20 @@
   }
   
   .social {
-    display: flex;
+    display:flex;
+    background-color:aliceblue;
     justify-content: space-evenly;
   }
   
   .social a {
     font-size: 20px;
-    color: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
+    color: linear-gradient(135deg, #57ffff 0%, #048dfd 100%);
+    transition: all 0.4s;
+  }
+
+  .social a:visited{
+    font-size: 20px;
+    color: linear-gradient(135deg, #57ffff 0%, #048dfd 100%);
     transition: all 0.4s;
   }
   
