@@ -80,24 +80,7 @@ body {
 } 
 
 
-.card1 {
-  text-align:center;
-  position: flex;
-  width: 250px;
-  height: 350px;
-  margin-bottom: 10px;
-  background: #040127;
-  transition:.6s;
-  
-  border-radius: 25px;
-  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
-}
 
-.card1 img{
-  
-  width:200px;
-  height:120px;
-}
 h3{
   font-size:25px;
   font-family: 'Abel', sans-serif;
@@ -112,47 +95,7 @@ p{
 
 
 
-.card2 {
-  text-align:center;
-  position: flex;
-  
-  width: 250px;
-  height: 350px;
-  
-  margin-bottom: 10px;
-  background: #040127;
-  
-  transition:.6s;
-  border-radius: 25px;
-  
-  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-}
 
-.card2 img{
- 
-  width:180px;
-  height:150px;
-}
-.card3 {
-  text-align:center;
-  position: flex;
-  
-  width: 250px;
-  height: 350px;
- 
-  margin-bottom: 10px;
-  background: #040127;
-  transition:.6s;
-  border-radius: 25px;
- 
-  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-}
-
-.card3 img{
-  
-  width:200px;
-  height:120px;
-}
 .footer {
   
   
@@ -170,7 +113,7 @@ p{
 }
 .strip1 h1{
 color: white;
-font-size:40px;
+font-size: 3vw;
   font-family: 'Exo', sans-serif;
   padding: 10%;
   padding-bottom: 3%;
@@ -183,7 +126,7 @@ font-size:40px;
   
 }
 .strip1 p{
-  font-size:20px;
+  font-size: 1.5vw;
   font-family: 'Exo', sans-serif;
   width: 30%;
   padding: 10%;
@@ -202,7 +145,7 @@ font-size:40px;
 }
 .strip2 h1{
   color: white;
-  font-size:40px;
+  font-size:3vw;
     font-family: 'Exo', sans-serif;
     padding: 10%;
     padding-bottom: 3%;
@@ -216,7 +159,7 @@ font-size:40px;
     
   }
   .strip2 p{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Exo', sans-serif;
     width: 30%;
     padding: 10%;
@@ -226,7 +169,7 @@ font-size:40px;
   
   .strip3 h1{
     color: white;
-    font-size:40px;
+    font-size:3vw;
       font-family: 'Exo', sans-serif;
       padding: 10%;
       padding-bottom: 3%;
@@ -239,7 +182,7 @@ font-size:40px;
       margin-bottom: 0%;
     }
     .strip3 p{
-      font-size: 20px;
+      font-size: 1.5vw;
       font-family: 'Exo', sans-serif;
       width: 30%;
       padding: 10%;
