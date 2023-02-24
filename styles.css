@@ -37,11 +37,12 @@ li a {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  height: 7%;
+  margin-top: -2%;
+  height: 4%;
   width: 100%;
-  background-color: #1B1A38;
+  background-color: #040127;
   font-family: 'Abel', sans-serif;
+  
 }
 
 li {
@@ -50,16 +51,19 @@ li {
  
 }
 
+li a:hover {
+  background-color: rgb(136, 133, 133);
+  opacity: 0.5;
+  box-shadow: 7px 12px 2px 1px rgba(0, 255, 255, .2);
+}
+
 
 #myvideo{
   width: 50%;
   height: auto;
   margin-left: -2%;
 }
-li a:hover {
-  background-color: rgb(136, 133, 133);
-  opacity: 0.5;
-}
+
 
 
     .grad{
@@ -98,19 +102,26 @@ p{
 
 .footer {
   
-  
+  margin-top: 0%;
   width: 100%;
   background-color:#040127;;
   color: white;
   text-align: center;
   height: 10%;
+  padding-bottom: 0.5%;
 
 }
 .footer h2{
-  font-size:18px;
+  font-size: 1vw;
   font-family: 'Exo', sans-serif;
-  padding: 2%;
+  color: white;
+padding-top: 2%;
 }
+  .footer p{
+    font-size: 0.6vw;
+    font-family: 'Exo', sans-serif;
+    color: white;
+  }
 .strip1 h1{
 color: white;
 font-size: 3vw;

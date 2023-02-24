@@ -37,8 +37,9 @@ body {
     margin-top: -2%;
     height: 4%;
     width: 100%;
-    background-color: #1B1A38;
+    background-color: #040127;
     font-family: 'Abel', sans-serif;
+    
   }
   
   li {
@@ -50,6 +51,7 @@ body {
   li a:hover {
     background-color: rgb(136, 133, 133);
     opacity: 0.5;
+    box-shadow: 7px 12px 2px 1px rgba(0, 255, 255, .2);
   }
   
   
@@ -101,16 +103,16 @@ body {
   p{
     color:rgb(255, 255, 255);
     font-family: 'Abel', sans-serif;
+    text-align: center;
   }
   h1{
     margin-top: 5%;
     color: white;
-    font-size: 7vw;
     font-family: 'Abel', sans-serif;
     position: absolute;
     text-align: center;
-  left: 30%;
-    width: 100%;
+    font-size: 3.5vw;
+    text-align: center;
   }
   
   
@@ -156,29 +158,8 @@ body {
     width:200px;
     height:120px;
   }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    margin-top: 55%; 
-  }
-  .footer h2{
-    font-size:18px;
-    font-family: 'Exo', sans-serif;
-    
-  }
   
-  h1 {
-    font-size: 3.5vw;
-    position: relative;
-    width: max-content; 
-    font-weight: normal;
-    text-align: center;
-  }
+  
   
  
   
@@ -200,10 +181,11 @@ body {
   background-color: #1B1A38;
   width: 100%;
   height: 50%;
+  margin-top: 10%;
  }
  .footer {
   
-  
+  margin-top: 0%;
   width: 100%;
   background-color:#040127;;
   color: white;
@@ -213,12 +195,16 @@ body {
 
 }
 .footer h2{
-  font-size:18px;
+  font-size: 1vw;
   font-family: 'Exo', sans-serif;
-  
-
+  color: white;
+padding-top: 2%;
 }
-  
+  .footer p{
+    font-size: 0.6vw;
+    font-family: 'Exo', sans-serif;
+    color: white;
+  }
   
   
   

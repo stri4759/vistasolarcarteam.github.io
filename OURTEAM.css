@@ -76,7 +76,7 @@
   }
   
   h2 {
-    padding: 1rem 0 1rem;
+    
   }
   h1{
     margin-left: auto; 
@@ -86,16 +86,10 @@
     color: white;
   }
   
-  h2:after {
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 40px;
-    background: #fff;
-  }
   
   p {
     text-align: justify;
+    padding: 0.5%;
   }
   
   .social {
@@ -126,34 +120,34 @@
       grid-template-columns: 1fr;
     }
   }
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+  }
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
+    margin-top: -2%;
+    height: 4%;
+    width: 100%;
+    background-color: #040127;
     font-family: 'Abel', sans-serif;
+    
   }
   
   li {
     float: left;
-    border-radius: 25px;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 25px;
-    font-family: 'Abel', sans-serif;
+    padding: 1%;
+   
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(136, 133, 133);
     opacity: 0.5;
+    box-shadow: 7px 12px 2px 1px rgba(0, 255, 255, .2);
   }
   .center {
     display: block;
@@ -171,60 +165,30 @@
     font-weight: normal;
   }
   
-  h1:before, h1:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
   
-  h1::before {
-    background: #040127;
-    animation: write 2s steps(15) 0.5s forwards; /* Number of steps */
-    width: 100%;
-  }
   
-  h1::after {
-    opacity: 1;
-    width: 0.15em; 
-    background: rgb(255, 255, 255);
-    animation: write 2s steps(15) 0.5s forwards, blink 0.75s steps(2) infinite;
-  }
-  
-  @keyframes write {
-    to {
-      left: 100%;
-    }
-    
-  }
-  
-  @keyframes blink {
-    0% {
-      opacity: 0;
-    } 
-    49.9% {
-       opacity: 0;
-    }
-    50% {
-       opacity: 1;
-    }
-    100% {
-       opacity: 1;
-    }
-  }
+ 
   
   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+  
+    margin-top: 0%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color:#040127;;
     color: white;
     text-align: center;
+    height: 10%;
+    padding-bottom: 0.5%;
+  
   }
   .footer h2{
-    font-size:18px;
+    font-size: 1vw;
     font-family: 'Exo', sans-serif;
-    
+    color: white;
+  padding-top: 2%;
   }
+    .footer p{
+      font-size: 0.6vw;
+      font-family: 'Exo', sans-serif;
+      color: white;
+      text-align: center;
+    }
