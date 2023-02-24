@@ -1,6 +1,7 @@
 body { 
     background-color: #040127;
-    min-height: 1000px;}
+    min-height: 1000px;
+  overflow: hidden;}
   .center {
       display: block;
       margin-left: auto;
@@ -23,33 +24,31 @@ body {
       100%   { transform: translate(0, -0px); }   
   }
   
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+  }
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
+    margin-top: -2%;
+    height: 4%;
+    width: 100%;
+    background-color: #1B1A38;
     font-family: 'Abel', sans-serif;
   }
   
   li {
     float: left;
-    border-radius: 25px;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 25px;
-    font-family: 'Abel', sans-serif;
+    padding: 1%;
+   
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(136, 133, 133);
     opacity: 0.5;
   }
   
@@ -102,6 +101,16 @@ body {
   p{
     color:rgb(255, 255, 255);
     font-family: 'Abel', sans-serif;
+  }
+  h1{
+    margin-top: 5%;
+    color: white;
+    font-size: 7vw;
+    font-family: 'Abel', sans-serif;
+    position: absolute;
+    text-align: center;
+  left: 30%;
+    width: 100%;
   }
   
   
@@ -171,51 +180,9 @@ body {
     text-align: center;
   }
   
-  h1:before, h1:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    text-align: center;
-  }
+ 
   
-  h1::before {
-    background: #040127;
-    animation: write 2s steps(15) 0.5s forwards; /* Number of steps */
-    width: 100%;
-    text-align: center;
-  }
-  
-  h1::after {
-    opacity: 1;
-    width: 0.15em; 
-    background: rgb(255, 255, 255);
-    animation: write 2s steps(15) 0.5s forwards, blink 0.75s steps(2) infinite;
-    text-align: center;
-  }
-  
-  @keyframes write {
-    to {
-      left: 100%;
-    }
-    
-  }
-  
-  @keyframes blink {
-    0% {
-      opacity: 0;
-    } 
-    49.9% {
-       opacity: 0;
-    }
-    50% {
-       opacity: 1;
-    }
-    100% {
-       opacity: 1;
-    }
-  }
+ 
   .grey {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
@@ -229,7 +196,28 @@ body {
       -webkit-transform: scale(1.01);
     }
   
- 
+ .container{
+  background-color: #1B1A38;
+  width: 100%;
+  height: 50%;
+ }
+ .footer {
+  
+  
+  width: 100%;
+  background-color:#040127;;
+  color: white;
+  text-align: center;
+  height: 10%;
+  padding-bottom: 0.5%;
+
+}
+.footer h2{
+  font-size:18px;
+  font-family: 'Exo', sans-serif;
+  
+
+}
   
   
   
